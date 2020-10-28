@@ -10,6 +10,7 @@ import { DispatchContext } from './context';
 import { setLocalStorage, getLocalStorage } from './localStorage';
 import { getFullUserData } from './api';
 
+// TODO: add
 const GeoFirestore = geofirestore.initializeApp(firestore);
 
 const initialState = {
